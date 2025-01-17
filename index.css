@@ -1,44 +1,66 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* overflow: hidden; */
+  background-color: burlywood;
+}
 
-  .divclass {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-    height: 40%;
-    gap: 40px;
-  }
+.divclass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 40%;
+  gap: 40px;
+}
 
-  #keyPressed {
-    border: 1px solid grey;
-    padding: 10px 20px;
-    width: 80%;
-    text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+#keyPressed {
+  border: 1px solid grey;
+  padding: 10px 20px;
+  width: 80%;
+  background-color: aquamarine;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-  #keyCode {
-    width: auto;
-    font-size: 6rem;
-    border: 1px solid grey;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 5px 10px;
-    display: none;
-    color: rgb(5, 133, 90);
-  }
+#keyCode {
+  width: auto;
+  font-size: 6rem;
+  border: 1px solid grey;
+  background-color: aquamarine;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 5px 10px;
+  display: none;
+  color: rgb(5, 133, 90);
+}
+
+#history {
+  margin: 10px 20px;
+  padding: 10px 10px;
+  max-width :90%;
+  display: none;
+  overflow-x: scroll;
+  white-space: nowrap;
+  gap: 3px;
+  border: 1px solid gray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: aliceblue;
+}
+
+.para{
+  width: 8rem;
+  border:1px solid gray;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+   0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
